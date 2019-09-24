@@ -1,0 +1,1 @@
+nav, header, project- grid 2 rows of three, cards for each project inside one of three columns/ id to nav, modal/About us/id to nav, modal/contact/ id to nav, formspree.
