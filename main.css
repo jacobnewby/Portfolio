@@ -100,3 +100,13 @@
     line-height: 8vw;
     
   }
+
+  .btn-primary {
+    color: #fff;
+    background-color: black;
+    border-color: white;
+    position: relative;
+    top: 10em;
+    left: 50em;
+    /* #007bff; */
+  }
