@@ -30,103 +30,176 @@
     </div>
   </section>
   <div class="mainmodal">
-  <!-- Modal Nav -->
-  <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-    About
-  </button>
-  
-  <!-- Modal about -->
-  <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
+<!-- About Modal -->
+<button type="button" class="btn btn-outline-secondary" id="aboutButton" data-toggle="modal" data-target="#aboutModal">
+  About
+</button>
+
+<div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModal" aria-hidden="false">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="aboutModal">About Me</h3>
       </div>
-    </div>
-  </div>
-  <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-    Projects
-  </button>
-  
-  <!-- Modal projects -->
-    <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-scrollable" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
+      <div class="modal-body">
+        <div class="text-center">
+        <img src="assets/img/jacob.JPG">
       </div>
+      <div class="text-center">
+       <p>Hi, my name is Jacob Newby I've been interested in computers since I was 12 years old. I alwayss knew that I would go into some field of career that involves working with computers. When I was 16, I visited college compuses and decided I would either go into coding or computer engineering. I decided to take classes at Eleven Fifty Academy and I really enjoyed the class. I'm very thrilled to be able to use the skills I learned in the class in my future career.</p>
+      </div>
+      <h3 class="modal-title">Skills</h3>
+    </br>
+    <div class="skill-items text-center">
+      <ul>
+        <h5>
+          <li>-C#</li>
+          <li>-HTML</li>
+          <li>-CSS</li>
+          <li>-Bootstrap</li>
+        </h5>
+      </ul>
     </div>
-  </div>
-  <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
-  Contact
-  </button>
-  
-  <!-- Modal contact-->
-  <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-scrollable" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        </div>
+    </div>
+      <div class="modal-footer">
+        <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
 </div>
-    
-    
+
+<!-- Projects Modal -->
+<button type="button" class="btn btn-outline-secondary" id="projectButton" data-toggle="modal" data-target="#projectModal">
+    Projects
+  </button>
   
-    
-    
-    
+<div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="projectModal" aria-hidden="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="projectModal">Projects</h3>
+        </div>
+        <div class="modal-body">
+            <div class="card" style="width: 18rem;">
+                <img src="assets/StoreFront.png" class="card-img-top" alt="StoreFront">
+                <div class="card-body">
+                  <h5 class="card-title">Static Storefront</h5>
+                  <p class="card-text">Static storefront using hmtl and css</p>
+                  <a href="https://github.com/jacobnewby/RealComputerStore" class="btn btn-primary">Go to Static Storefront</a>
+                </div>
+              </div>
+              <br>
+              <div class="card" style="width: 18rem;">
+                  <img src="assets/tadpole.png" class="card-img-top" alt="tadpole">
+                  <div class="card-body">
+                    <h5 class="card-title">CSS Creature</h5>
+                    <p class="card-text">A tadpole using html and css</p>
+                    <a href="https://codepen.io/itz-newby/pen/oNvPxGb" class="btn btn-primary">Go to CSS Creature</a>
+                  </div>
+                </div>
+                <br>
+                <div class="card" style="width: 18rem;">
+                    <img src="assets/registerpage.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Register Page</h5>
+                      <p class="card-text">Register page for a website</p>
+                      <a href="https://github.com/jacobnewby/RegisterPage" class="btn btn-primary">Go to Register Page</a>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="card" style="width: 18rem;">
+                      <img src="assets/ConsoleApps.png" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">Console Applications</h5>
+                        <p class="card-text">Console Applications using C#</p>
+                        <a href="https://github.com/jacobnewby/Console-App-Challenges" class="btn btn-primary">Go to Applications</a>
+                      </div>
+                    </div>
+                    <br>
+        </div>
+        <div class="modal-footer">
+          <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact Modal -->
+<button type="button" class="btn btn-outline-secondary" id="contactButton" data-toggle="modal" data-target="#contactModal">
+    Contact
+  </button>
   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="false">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title" id="contactModal">Contact Me</h3>
+        </div>
+        <div class="modal-body">
+            <div class="container">
+                <div class="row-center">
+                  <form action="https://formspree.io/jacobnewby01@gmail.com" method="POST">
+                    <div class="control-group">
+                      <div class="form-group">
+                        <label>Name</label>
+                        <input
+                          type="text"
+                          class="form-control"
+                          placeholder="Your Name"
+                          id="name"
+                          required
+                          data-validation-required-message="Please enter your name"
+                          name="name"
+                          >
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group">
+                        <label>Email Address</label>
+                        <input
+                          type="email"
+                          class="form-control"
+                          placeholder="Your Email"
+                          id="email"
+                          required
+                          data-validation-required-message="Please enter your email"
+                          name="_replyto"
+                        >
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="control-group">
+                      <div class="form-group">
+                        <textarea
+                          class="form-control"
+                          rows="7"
+                          placeholder="Your Message"
+                          id="message"
+                          required
+                          data-validation-required-message="Please leave a message"
+                          name="message"
+                        ></textarea>
+                        <p class="help-block text-danger"></p>
+                      </div>
+                    </div>
+                    <div class="text-center">
+                      <div id="success"></div>
+                      <button id="closeBtn" type="submit" class="btn btn-outline-secondary">
+                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                        Send Message
+                      </button>
+                    </div>
+                  </form>
+                </div>
+              </div>          
+            </div>
+        <div class="modal-footer">
+          <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
