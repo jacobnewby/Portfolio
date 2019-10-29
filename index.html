@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="main.css">
-    <title>Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Portfolio</title>
 </head>
+
 <body>
   <div class="waveWrapper waveAnimation">
     <div class="waveWrapperInner bgTop">
-      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')"></div>
+      <div class="wave waveTop" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-top.png')">
+      </div>
     </div>
     <div class="waveWrapperInner bgMiddle">
-      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')"></div>
+      <div class="wave waveMiddle" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-mid.png')">
+      </div>
     </div>
     <div class="waveWrapperInner bgBottom">
-      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')"></div>
+      <div class="wave waveBottom" style="background-image: url('http://front-end-noobs.com/jecko/img/wave-bot.png')">
+      </div>
     </div>
   </div>
   <!-- Header -->
-  <section id ="header">
+  <section id="header">
     <div class="first">
       <div class="Jacob">JACOB</div>
     </div>
@@ -30,182 +36,191 @@
     </div>
   </section>
   <div class="mainmodal">
-<!-- About Modal -->
-<button type="button" class="btn btn-outline-secondary" id="aboutButton" data-toggle="modal" data-target="#aboutModal">
-  About
-</button>
+    <!-- About Modal -->
+    <button type="button" class="btn btn-outline-secondary" id="aboutButton" data-toggle="modal"
+      data-target="#aboutModal">
+      About
+    </button>
 
-<div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModal" aria-hidden="false">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h3 class="modal-title" id="aboutModal">About Me</h3>
-      </div>
-      <div class="modal-body">
-        <div class="text-center">
-        <img src="assets/img/jacob.JPG">
-      </div>
-      <div class="text-center">
-       <p>Hi, my name is Jacob Newby. I've been interested in computers since I was 12 years old. I always knew that I would go into a field of career that involves working with computers. When I was 16, I visited college compuses and decided I would either go into software engineering or computer engineering. I decided to take classes at Eleven Fifty Academy and I really enjoyed the class. I'm very thrilled to be able to use the skills I have learned through the course in my future career.</p>
-       <a href="https://docs.google.com/document/d/18XTUKUjmhliyaYjYro2rUqWdgd27fhyjBGFUYkkftQ4/edit?usp=sharing" class="btn btn-primary">My Resume</a>
-      </div>
-      <h3 class="modal-title">Skills</h3>
-    </br>
-    <div class="skill-items text-center" id=skills>
-      <ul>
-        <h5>
-          <li>C#</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>.NetFramework</li>
-        </h5>
-      </ul>
-    </div>
-    </div>
-      <div class="modal-footer">
-        <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Projects Modal -->
-<button type="button" class="btn btn-outline-secondary" id="projectButton" data-toggle="modal" data-target="#projectModal">
-    Projects
-  </button>
-  
-<div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="projectModal" aria-hidden="false">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="projectModal">Projects</h3>
-        </div>
-        <div class="modal-body">
-            <div class="card" style="width: 18rem;">
-                <img src="assets/StoreFront.png" class="card-img-top" alt="StoreFront">
-                <div class="card-body">
-                  <h5 class="card-title">Static Storefront</h5>
-                  <p class="card-text">Static storefront using hmtl and css</p>
-                  <a href="https://github.com/jacobnewby/RealComputerStore" class="btn btn-primary">Go to Static Storefront</a>
-                </div>
-              </div>
-              <br>
-              <div class="card" style="width: 18rem;">
-                  <img src="assets/tadpole.png" class="card-img-top" alt="tadpole">
-                  <div class="card-body">
-                    <h5 class="card-title">CSS Creature</h5>
-                    <p class="card-text">A tadpole using html and css</p>
-                    <a href="https://codepen.io/itz-newby/pen/oNvPxGb" class="btn btn-primary">Go to CSS Creature</a>
-                  </div>
-                </div>
-                <br>
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/registerpage.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Register Page</h5>
-                      <p class="card-text">Register page for a website</p>
-                      <a href="https://github.com/jacobnewby/RegisterPage" class="btn btn-primary">Go to Register Page</a>
-                    </div>
-                  </div>
-                  <br>
-                  <div class="card" style="width: 18rem;">
-                      <img src="assets/ConsoleApps.png" class="card-img-top" alt="...">
-                      <div class="card-body">
-                        <h5 class="card-title">Console Applications</h5>
-                        <p class="card-text">Console Applications using C#</p>
-                        <a href="https://github.com/jacobnewby/Console-App-Challenges" class="btn btn-primary">Go to Applications</a>
-                      </div>
-                    </div>
-                    <br>
-        </div>
-        <div class="modal-footer">
-          <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Contact Modal -->
-<button type="button" class="btn btn-outline-secondary" id="contactButton" data-toggle="modal" data-target="#contactModal">
-    Contact
-  </button>
-  
-<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal" aria-hidden="false">
-    <div class="modal-dialog modal-dialog-centered" role="document">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h3 class="modal-title" id="contactModal">Contact Me</h3>
-        </div>
-        <div class="modal-body">
-            <div class="container">
-                <div class="row-center">
-                  <form action="https://formspree.io/jacobnewby01@gmail.com" method="POST">
-                    <div class="control-group">
-                      <div class="form-group">
-                        <label>Name</label>
-                        <input
-                          type="text"
-                          class="form-control"
-                          placeholder="Your Name"
-                          id="name"
-                          required
-                          data-validation-required-message="Please enter your name"
-                          name="name"
-                          >
-                        <p class="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <div class="form-group">
-                        <label>Email Address</label>
-                        <input
-                          type="email"
-                          class="form-control"
-                          placeholder="Your Email"
-                          id="email"
-                          required
-                          data-validation-required-message="Please enter your email"
-                          name="_replyto"
-                        >
-                        <p class="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div class="control-group">
-                      <div class="form-group">
-                        <textarea
-                          class="form-control"
-                          rows="7"
-                          placeholder="Your Message"
-                          id="message"
-                          required
-                          data-validation-required-message="Please leave a message"
-                          name="message"
-                        ></textarea>
-                        <p class="help-block text-danger"></p>
-                      </div>
-                    </div>
-                    <div class="text-center">
-                      <div id="success"></div>
-                      <button id="closeBtn" type="submit" class="btn btn-outline-secondary">
-                        <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-                        Send Message
-                      </button>
-                    </div>
-                  </form>
-                </div>
-              </div>          
+    <div class="modal fade" id="aboutModal" tabindex="-1" role="dialog" aria-labelledby="aboutModal"
+      aria-hidden="false">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="aboutModal">About Me</h3>
+          </div>
+          <div class="modal-body">
+            <div class="text-center">
+              <img src="assets/img/jacob.JPG">
             </div>
-        <div class="modal-footer">
-          <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+            <div class="text-center">
+              <p>Hi, my name is Jacob Newby. I've been interested in computers since I was 12 years old. I always knew
+                that I would go into a field of career that involves working with computers. When I was 16, I visited
+                college compuses and decided I would either go into software engineering or computer engineering. I
+                decided to take classes at Eleven Fifty Academy and I really enjoyed the class. I'm very thrilled to be
+                able to use the skills I have learned through the course in my future career.</p>
+              <a href="https://docs.google.com/document/d/18XTUKUjmhliyaYjYro2rUqWdgd27fhyjBGFUYkkftQ4/edit?usp=sharing"
+                class="btn btn-primary">My Resume</a>
+            </div>
+            <h3 class="modal-title">Skills</h3>
+            </br>
+            <div class="skill-items text-center" id=skills>
+              <ul>
+                <h5>
+                  <li>C#</li>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>.NetFramework</li>
+                  <li>ASP.NET</li>
+                </h5>
+              </ul>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
-  </div>
 
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    
+    <!-- Projects Modal -->
+    <button type="button" class="btn btn-outline-secondary" id="projectButton" data-toggle="modal"
+      data-target="#projectModal">
+      Projects
+    </button>
+
+    <div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-labelledby="projectModal"
+      aria-hidden="false">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="projectModal">Projects</h3>
+          </div>
+          <div class="modal-body">
+            <div class="card" style="width: 18rem;">
+              <img src="assets/StoreFront.png" class="card-img-top" alt="StoreFront">
+              <div class="card-body">
+                <h5 class="card-title">Static Storefront</h5>
+                <p class="card-text">Static storefront using hmtl and css</p>
+                <a href="https://github.com/jacobnewby/RealComputerStore" class="btn btn-primary">Go to Static
+                  Storefront</a>
+              </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/tadpole.png" class="card-img-top" alt="tadpole">
+              <div class="card-body">
+                <h5 class="card-title">CSS Creature</h5>
+                <p class="card-text">A tadpole using html and css</p>
+                <a href="https://codepen.io/itz-newby/pen/oNvPxGb" class="btn btn-primary">Go to CSS Creature</a>
+              </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/registerpage.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Register Page</h5>
+                <p class="card-text">Register page for a website</p>
+                <a href="https://github.com/jacobnewby/RegisterPage" class="btn btn-primary">Go to Register Page</a>
+              </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/ConsoleApps.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Console Applications</h5>
+                <p class="card-text">Console Applications using C#</p>
+                <a href="https://github.com/jacobnewby/Console-App-Challenges" class="btn btn-primary">Go to
+                  Applications</a>
+              </div>
+            </div>
+            <br>
+            <div class="card" style="width: 18rem;">
+              <img src="assets/PureRLBuilds.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pure RL Builds</h5>
+                <p class="card-text">Website using ASP.NET</p>
+                <a href="https://github.com/jacobnewby/BlueBadgeProjectRocketLeague" class="btn btn-primary">Go to
+                  Pure RL Builds</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Modal -->
+    <button type="button" class="btn btn-outline-secondary" id="contactButton" data-toggle="modal"
+      data-target="#contactModal">
+      Contact
+    </button>
+
+    <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal"
+      aria-hidden="false">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="contactModal">Contact Me</h3>
+          </div>
+          <div class="modal-body">
+            <div class="container">
+              <div class="row-center">
+                <form action="https://formspree.io/jacobnewby01@gmail.com" method="POST">
+                  <div class="control-group">
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                        data-validation-required-message="Please enter your name" name="name">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group">
+                      <label>Email Address</label>
+                      <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                        data-validation-required-message="Please enter your email" name="_replyto">
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="control-group">
+                    <div class="form-group">
+                      <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                        data-validation-required-message="Please leave a message" name="message"></textarea>
+                      <p class="help-block text-danger"></p>
+                    </div>
+                  </div>
+                  <div class="text-center">
+                    <div id="success"></div>
+                    <button id="closeBtn" type="submit" class="btn btn-outline-secondary">
+                      <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                      Send Message
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" id="closeBtn" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
 </body>
+
 </html>

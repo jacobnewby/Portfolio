@@ -102,11 +102,28 @@
   }
 
 .mainmodal {
-    position: relative;
-    top: 10em;
-    left: 50em;
-  }
+    position: fixed;
+    top: 70vh;
+    left: 40vw;
+    z-index: 1050;
+ }
+
 .btn-primary {
     color: white;
     background-color: rgb(211, 18, 211);
+}
+.html {
+    width: 100vw;
+    height: 100vh;
+}
+
+@media only screen and (max-width: 600px){
+    .mainmodal{
+        position: initial;
+        display: flex;
+        flex-direction: column;
+        height: 100vw;
+        justify-content: center;
+        align-items: center;
+    }
 }
