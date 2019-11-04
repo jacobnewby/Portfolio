@@ -127,3 +127,8 @@
         align-items: center;
     }
 }
+
+.profilePic {
+    width: 200px;
+    height: 280px;
+}
